@@ -7,12 +7,43 @@
 //
 
 #import "AppDelegate.h"
+#import "rootViewController.h"
+
+@implementation ftpNavigationController
+
+-(BOOL)shouldAutorotate
+{
+    return YES;
+}
+
+-(NSUInteger)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    return UIInterfaceOrientationIsPortrait(interfaceOrientation);
+}
+
+
+@end
 
 @implementation AppDelegate
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    rootViewController* rootVC = [[rootViewController alloc]init];
+
+    self.naviVC = [[ftpNavigationController alloc] initWithRootViewController:rootVC];
+    
+    self.naviVC.navigationBarHidden = YES;
+    
+    self.window.rootViewController = self.naviVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							

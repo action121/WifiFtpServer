@@ -13,14 +13,46 @@
 		5EC409A5182B254D00CD70DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EC409A3182B254D00CD70DF /* InfoPlist.strings */; };
 		5EC409A7182B254D00CD70DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC409A6182B254D00CD70DF /* main.m */; };
 		5EC409AB182B254D00CD70DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC409AA182B254D00CD70DF /* AppDelegate.m */; };
-		5EC409AE182B254D00CD70DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC409AC182B254D00CD70DF /* Main.storyboard */; };
-		5EC409B1182B254D00CD70DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC409B0182B254D00CD70DF /* ViewController.m */; };
-		5EC409B3182B254D00CD70DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC409B2182B254D00CD70DF /* Images.xcassets */; };
 		5EC409B9182B254D00CD70DF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC409B8182B254D00CD70DF /* XCTest.framework */; };
 		5EC409BA182B254D00CD70DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC4099A182B254D00CD70DF /* Foundation.framework */; };
 		5EC409BB182B254D00CD70DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC4099E182B254D00CD70DF /* UIKit.framework */; };
 		5EC409C3182B254D00CD70DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EC409C1182B254D00CD70DF /* InfoPlist.strings */; };
 		5EC409C5182B254D00CD70DF /* WifiFtpServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC409C4182B254D00CD70DF /* WifiFtpServerTests.m */; };
+		5EC409FC182B25D300CD70DF /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC409D1182B25D300CD70DF /* AESCrypt.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5EC409FD182B25D300CD70DF /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC409D3182B25D300CD70DF /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5EC409FE182B25D300CD70DF /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC409D5182B25D300CD70DF /* NSData+CommonCrypto.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5EC409FF182B25D300CD70DF /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC409D7182B25D300CD70DF /* NSString+Base64.m */; };
+		5EC40A00182B25D300CD70DF /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC409D9182B25D300CD70DF /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5EC40A01182B25D300CD70DF /* connect.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC409DB182B25D300CD70DF /* connect.png */; };
+		5EC40A02182B25D300CD70DF /* disconnect.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC409DC182B25D300CD70DF /* disconnect.png */; };
+		5EC40A03182B25D300CD70DF /* ftp_checked_no.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC409DD182B25D300CD70DF /* ftp_checked_no.png */; };
+		5EC40A04182B25D300CD70DF /* ftp_checked_yes.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC409DE182B25D300CD70DF /* ftp_checked_yes.png */; };
+		5EC40A05182B25D300CD70DF /* head_left_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC409DF182B25D300CD70DF /* head_left_close.png */; };
+		5EC40A06182B25D300CD70DF /* head_right_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC409E0182B25D300CD70DF /* head_right_save.png */; };
+		5EC40A07182B25D300CD70DF /* head_right_set.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC409E1182B25D300CD70DF /* head_right_set.png */; };
+		5EC40A08182B25D300CD70DF /* wifi_state0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC409E2182B25D300CD70DF /* wifi_state0.png */; };
+		5EC40A09182B25D300CD70DF /* wifi_state1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC409E3182B25D300CD70DF /* wifi_state1.png */; };
+		5EC40A0A182B25D300CD70DF /* FtpConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC409E5182B25D300CD70DF /* FtpConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5EC40A0B182B25D300CD70DF /* FtpDataConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC409E7182B25D300CD70DF /* FtpDataConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5EC40A0C182B25D300CD70DF /* FtpServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC409EA182B25D300CD70DF /* FtpServer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5EC40A0F182B25D300CD70DF /* list.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC409F0182B25D300CD70DF /* list.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5EC40A10182B25D300CD70DF /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC409F2182B25D300CD70DF /* NetworkController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5EC40A11182B25D300CD70DF /* ToastView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5EC409F5182B25D300CD70DF /* ToastView.mm */; };
+		5EC40A12182B25D300CD70DF /* wifiFtpServerStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC409F7182B25D300CD70DF /* wifiFtpServerStartViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5EC40A13182B25D300CD70DF /* wifiFtpServerStartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EC409F8182B25D300CD70DF /* wifiFtpServerStartViewController.xib */; };
+		5EC40A14182B25D300CD70DF /* wifiFtpSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC409FA182B25D300CD70DF /* wifiFtpSettingViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5EC40A15182B25D300CD70DF /* wifiFtpSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EC409FB182B25D300CD70DF /* wifiFtpSettingViewController.xib */; };
+		5EC40A1B182B25DE00CD70DF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC40A16182B25DE00CD70DF /* Default-568h@2x.png */; };
+		5EC40A1C182B25DE00CD70DF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC40A17182B25DE00CD70DF /* Default.png */; };
+		5EC40A1D182B25DE00CD70DF /* ftp_commands.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EC40A18182B25DE00CD70DF /* ftp_commands.plist */; };
+		5EC40A1E182B25DE00CD70DF /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC40A19182B25DE00CD70DF /* logo.png */; };
+		5EC40A1F182B25DE00CD70DF /* silent.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EC40A1A182B25DE00CD70DF /* silent.wav */; };
+		5EC40A23182B267A00CD70DF /* rootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC40A21182B267A00CD70DF /* rootViewController.m */; };
+		5EC40A26182B27D700CD70DF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC40A25182B27D700CD70DF /* AVFoundation.framework */; };
+		5EC40A28182B27DF00CD70DF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC40A27182B27DF00CD70DF /* CoreMedia.framework */; };
+		5EC40A2A182B27EA00CD70DF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC40A29182B27EA00CD70DF /* SystemConfiguration.framework */; };
+		5EC40A2C182B27F100CD70DF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC40A2B182B27F100CD70DF /* CFNetwork.framework */; };
+		5EC40A2E182B293500CD70DF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC40A2D182B293500CD70DF /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +76,60 @@
 		5EC409A8182B254D00CD70DF /* WifiFtpServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WifiFtpServer-Prefix.pch"; sourceTree = "<group>"; };
 		5EC409A9182B254D00CD70DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5EC409AA182B254D00CD70DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5EC409AD182B254D00CD70DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5EC409AF182B254D00CD70DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5EC409B0182B254D00CD70DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5EC409B2182B254D00CD70DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5EC409B8182B254D00CD70DF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5EC409C0182B254D00CD70DF /* WifiFtpServerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WifiFtpServerTests-Info.plist"; sourceTree = "<group>"; };
 		5EC409C2182B254D00CD70DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5EC409C4182B254D00CD70DF /* WifiFtpServerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WifiFtpServerTests.m; sourceTree = "<group>"; };
+		5EC409D0182B25D300CD70DF /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		5EC409D1182B25D300CD70DF /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		5EC409D2182B25D300CD70DF /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		5EC409D3182B25D300CD70DF /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		5EC409D4182B25D300CD70DF /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		5EC409D5182B25D300CD70DF /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		5EC409D6182B25D300CD70DF /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		5EC409D7182B25D300CD70DF /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		5EC409D8182B25D300CD70DF /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		5EC409D9182B25D300CD70DF /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		5EC409DB182B25D300CD70DF /* connect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connect.png; sourceTree = "<group>"; };
+		5EC409DC182B25D300CD70DF /* disconnect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disconnect.png; sourceTree = "<group>"; };
+		5EC409DD182B25D300CD70DF /* ftp_checked_no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftp_checked_no.png; sourceTree = "<group>"; };
+		5EC409DE182B25D300CD70DF /* ftp_checked_yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftp_checked_yes.png; sourceTree = "<group>"; };
+		5EC409DF182B25D300CD70DF /* head_left_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head_left_close.png; sourceTree = "<group>"; };
+		5EC409E0182B25D300CD70DF /* head_right_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head_right_save.png; sourceTree = "<group>"; };
+		5EC409E1182B25D300CD70DF /* head_right_set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head_right_set.png; sourceTree = "<group>"; };
+		5EC409E2182B25D300CD70DF /* wifi_state0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wifi_state0.png; sourceTree = "<group>"; };
+		5EC409E3182B25D300CD70DF /* wifi_state1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wifi_state1.png; sourceTree = "<group>"; };
+		5EC409E4182B25D300CD70DF /* FtpConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FtpConnection.h; sourceTree = "<group>"; };
+		5EC409E5182B25D300CD70DF /* FtpConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FtpConnection.m; sourceTree = "<group>"; };
+		5EC409E6182B25D300CD70DF /* FtpDataConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FtpDataConnection.h; sourceTree = "<group>"; };
+		5EC409E7182B25D300CD70DF /* FtpDataConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FtpDataConnection.m; sourceTree = "<group>"; };
+		5EC409E8182B25D300CD70DF /* FtpDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FtpDefines.h; sourceTree = "<group>"; };
+		5EC409E9182B25D300CD70DF /* FtpServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FtpServer.h; sourceTree = "<group>"; };
+		5EC409EA182B25D300CD70DF /* FtpServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FtpServer.m; sourceTree = "<group>"; };
+		5EC409EF182B25D300CD70DF /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		5EC409F0182B25D300CD70DF /* list.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = list.m; sourceTree = "<group>"; };
+		5EC409F1182B25D300CD70DF /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
+		5EC409F2182B25D300CD70DF /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
+		5EC409F4182B25D300CD70DF /* ToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastView.h; sourceTree = "<group>"; };
+		5EC409F5182B25D300CD70DF /* ToastView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ToastView.mm; sourceTree = "<group>"; };
+		5EC409F6182B25D300CD70DF /* wifiFtpServerStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wifiFtpServerStartViewController.h; sourceTree = "<group>"; };
+		5EC409F7182B25D300CD70DF /* wifiFtpServerStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wifiFtpServerStartViewController.m; sourceTree = "<group>"; };
+		5EC409F8182B25D300CD70DF /* wifiFtpServerStartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = wifiFtpServerStartViewController.xib; sourceTree = "<group>"; };
+		5EC409F9182B25D300CD70DF /* wifiFtpSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wifiFtpSettingViewController.h; sourceTree = "<group>"; };
+		5EC409FA182B25D300CD70DF /* wifiFtpSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wifiFtpSettingViewController.m; sourceTree = "<group>"; };
+		5EC409FB182B25D300CD70DF /* wifiFtpSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = wifiFtpSettingViewController.xib; sourceTree = "<group>"; };
+		5EC40A16182B25DE00CD70DF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5EC40A17182B25DE00CD70DF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5EC40A18182B25DE00CD70DF /* ftp_commands.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ftp_commands.plist; sourceTree = "<group>"; };
+		5EC40A19182B25DE00CD70DF /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		5EC40A1A182B25DE00CD70DF /* silent.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = silent.wav; sourceTree = "<group>"; };
+		5EC40A20182B267A00CD70DF /* rootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rootViewController.h; path = Classes/rootViewController.h; sourceTree = "<group>"; };
+		5EC40A21182B267A00CD70DF /* rootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = rootViewController.m; path = Classes/rootViewController.m; sourceTree = "<group>"; };
+		5EC40A25182B27D700CD70DF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5EC40A27182B27DF00CD70DF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		5EC40A29182B27EA00CD70DF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5EC40A2B182B27F100CD70DF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5EC40A2D182B293500CD70DF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +137,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EC40A2E182B293500CD70DF /* QuartzCore.framework in Frameworks */,
+				5EC40A2C182B27F100CD70DF /* CFNetwork.framework in Frameworks */,
+				5EC40A2A182B27EA00CD70DF /* SystemConfiguration.framework in Frameworks */,
+				5EC40A28182B27DF00CD70DF /* CoreMedia.framework in Frameworks */,
+				5EC40A26182B27D700CD70DF /* AVFoundation.framework in Frameworks */,
 				5EC4099D182B254D00CD70DF /* CoreGraphics.framework in Frameworks */,
 				5EC4099F182B254D00CD70DF /* UIKit.framework in Frameworks */,
 				5EC4099B182B254D00CD70DF /* Foundation.framework in Frameworks */,
@@ -99,6 +182,11 @@
 		5EC40999182B254D00CD70DF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5EC40A2D182B293500CD70DF /* QuartzCore.framework */,
+				5EC40A2B182B27F100CD70DF /* CFNetwork.framework */,
+				5EC40A29182B27EA00CD70DF /* SystemConfiguration.framework */,
+				5EC40A27182B27DF00CD70DF /* CoreMedia.framework */,
+				5EC40A25182B27D700CD70DF /* AVFoundation.framework */,
 				5EC4099A182B254D00CD70DF /* Foundation.framework */,
 				5EC4099C182B254D00CD70DF /* CoreGraphics.framework */,
 				5EC4099E182B254D00CD70DF /* UIKit.framework */,
@@ -110,12 +198,11 @@
 		5EC409A0182B254D00CD70DF /* WifiFtpServer */ = {
 			isa = PBXGroup;
 			children = (
+				5EC409CE182B25D300CD70DF /* Classes */,
 				5EC409A9182B254D00CD70DF /* AppDelegate.h */,
 				5EC409AA182B254D00CD70DF /* AppDelegate.m */,
-				5EC409AC182B254D00CD70DF /* Main.storyboard */,
-				5EC409AF182B254D00CD70DF /* ViewController.h */,
-				5EC409B0182B254D00CD70DF /* ViewController.m */,
-				5EC409B2182B254D00CD70DF /* Images.xcassets */,
+				5EC40A20182B267A00CD70DF /* rootViewController.h */,
+				5EC40A21182B267A00CD70DF /* rootViewController.m */,
 				5EC409A1182B254D00CD70DF /* Supporting Files */,
 			);
 			path = WifiFtpServer;
@@ -124,6 +211,12 @@
 		5EC409A1182B254D00CD70DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5EC409DA182B25D300CD70DF /* image */,
+				5EC40A16182B25DE00CD70DF /* Default-568h@2x.png */,
+				5EC40A17182B25DE00CD70DF /* Default.png */,
+				5EC40A18182B25DE00CD70DF /* ftp_commands.plist */,
+				5EC40A19182B25DE00CD70DF /* logo.png */,
+				5EC40A1A182B25DE00CD70DF /* silent.wav */,
 				5EC409A2182B254D00CD70DF /* WifiFtpServer-Info.plist */,
 				5EC409A3182B254D00CD70DF /* InfoPlist.strings */,
 				5EC409A6182B254D00CD70DF /* main.m */,
@@ -148,6 +241,75 @@
 				5EC409C1182B254D00CD70DF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EC409CE182B25D300CD70DF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5EC409CF182B25D300CD70DF /* AES */,
+				5EC409D8182B25D300CD70DF /* AsyncSocket.h */,
+				5EC409D9182B25D300CD70DF /* AsyncSocket.m */,
+				5EC409E4182B25D300CD70DF /* FtpConnection.h */,
+				5EC409E5182B25D300CD70DF /* FtpConnection.m */,
+				5EC409E6182B25D300CD70DF /* FtpDataConnection.h */,
+				5EC409E7182B25D300CD70DF /* FtpDataConnection.m */,
+				5EC409E8182B25D300CD70DF /* FtpDefines.h */,
+				5EC409E9182B25D300CD70DF /* FtpServer.h */,
+				5EC409EA182B25D300CD70DF /* FtpServer.m */,
+				5EC409EF182B25D300CD70DF /* list.h */,
+				5EC409F0182B25D300CD70DF /* list.m */,
+				5EC409F1182B25D300CD70DF /* NetworkController.h */,
+				5EC409F2182B25D300CD70DF /* NetworkController.m */,
+				5EC409F3182B25D300CD70DF /* toast */,
+				5EC409F6182B25D300CD70DF /* wifiFtpServerStartViewController.h */,
+				5EC409F7182B25D300CD70DF /* wifiFtpServerStartViewController.m */,
+				5EC409F8182B25D300CD70DF /* wifiFtpServerStartViewController.xib */,
+				5EC409F9182B25D300CD70DF /* wifiFtpSettingViewController.h */,
+				5EC409FA182B25D300CD70DF /* wifiFtpSettingViewController.m */,
+				5EC409FB182B25D300CD70DF /* wifiFtpSettingViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5EC409CF182B25D300CD70DF /* AES */ = {
+			isa = PBXGroup;
+			children = (
+				5EC409D0182B25D300CD70DF /* AESCrypt.h */,
+				5EC409D1182B25D300CD70DF /* AESCrypt.m */,
+				5EC409D2182B25D300CD70DF /* NSData+Base64.h */,
+				5EC409D3182B25D300CD70DF /* NSData+Base64.m */,
+				5EC409D4182B25D300CD70DF /* NSData+CommonCrypto.h */,
+				5EC409D5182B25D300CD70DF /* NSData+CommonCrypto.m */,
+				5EC409D6182B25D300CD70DF /* NSString+Base64.h */,
+				5EC409D7182B25D300CD70DF /* NSString+Base64.m */,
+			);
+			path = AES;
+			sourceTree = "<group>";
+		};
+		5EC409DA182B25D300CD70DF /* image */ = {
+			isa = PBXGroup;
+			children = (
+				5EC409DB182B25D300CD70DF /* connect.png */,
+				5EC409DC182B25D300CD70DF /* disconnect.png */,
+				5EC409DD182B25D300CD70DF /* ftp_checked_no.png */,
+				5EC409DE182B25D300CD70DF /* ftp_checked_yes.png */,
+				5EC409DF182B25D300CD70DF /* head_left_close.png */,
+				5EC409E0182B25D300CD70DF /* head_right_save.png */,
+				5EC409E1182B25D300CD70DF /* head_right_set.png */,
+				5EC409E2182B25D300CD70DF /* wifi_state0.png */,
+				5EC409E3182B25D300CD70DF /* wifi_state1.png */,
+			);
+			name = image;
+			path = Classes/ftp;
+			sourceTree = "<group>";
+		};
+		5EC409F3182B25D300CD70DF /* toast */ = {
+			isa = PBXGroup;
+			children = (
+				5EC409F4182B25D300CD70DF /* ToastView.h */,
+				5EC409F5182B25D300CD70DF /* ToastView.mm */,
+			);
+			path = toast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,9 +387,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EC409B3182B254D00CD70DF /* Images.xcassets in Resources */,
+				5EC40A1D182B25DE00CD70DF /* ftp_commands.plist in Resources */,
+				5EC40A06182B25D300CD70DF /* head_right_save.png in Resources */,
+				5EC40A08182B25D300CD70DF /* wifi_state0.png in Resources */,
+				5EC40A01182B25D300CD70DF /* connect.png in Resources */,
+				5EC40A05182B25D300CD70DF /* head_left_close.png in Resources */,
+				5EC40A09182B25D300CD70DF /* wifi_state1.png in Resources */,
+				5EC40A03182B25D300CD70DF /* ftp_checked_no.png in Resources */,
+				5EC40A1F182B25DE00CD70DF /* silent.wav in Resources */,
+				5EC40A15182B25D300CD70DF /* wifiFtpSettingViewController.xib in Resources */,
+				5EC40A02182B25D300CD70DF /* disconnect.png in Resources */,
+				5EC40A04182B25D300CD70DF /* ftp_checked_yes.png in Resources */,
+				5EC40A1B182B25DE00CD70DF /* Default-568h@2x.png in Resources */,
 				5EC409A5182B254D00CD70DF /* InfoPlist.strings in Resources */,
-				5EC409AE182B254D00CD70DF /* Main.storyboard in Resources */,
+				5EC40A1E182B25DE00CD70DF /* logo.png in Resources */,
+				5EC40A1C182B25DE00CD70DF /* Default.png in Resources */,
+				5EC40A07182B25D300CD70DF /* head_right_set.png in Resources */,
+				5EC40A13182B25D300CD70DF /* wifiFtpServerStartViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,9 +422,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EC409B1182B254D00CD70DF /* ViewController.m in Sources */,
+				5EC40A0A182B25D300CD70DF /* FtpConnection.m in Sources */,
+				5EC40A12182B25D300CD70DF /* wifiFtpServerStartViewController.m in Sources */,
+				5EC409FC182B25D300CD70DF /* AESCrypt.m in Sources */,
+				5EC40A0F182B25D300CD70DF /* list.m in Sources */,
+				5EC40A10182B25D300CD70DF /* NetworkController.m in Sources */,
+				5EC409FE182B25D300CD70DF /* NSData+CommonCrypto.m in Sources */,
+				5EC40A0C182B25D300CD70DF /* FtpServer.m in Sources */,
+				5EC40A0B182B25D300CD70DF /* FtpDataConnection.m in Sources */,
+				5EC409FD182B25D300CD70DF /* NSData+Base64.m in Sources */,
+				5EC40A23182B267A00CD70DF /* rootViewController.m in Sources */,
+				5EC40A11182B25D300CD70DF /* ToastView.mm in Sources */,
 				5EC409AB182B254D00CD70DF /* AppDelegate.m in Sources */,
 				5EC409A7182B254D00CD70DF /* main.m in Sources */,
+				5EC409FF182B25D300CD70DF /* NSString+Base64.m in Sources */,
+				5EC40A14182B25D300CD70DF /* wifiFtpSettingViewController.m in Sources */,
+				5EC40A00182B25D300CD70DF /* AsyncSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,14 +466,6 @@
 				5EC409A4182B254D00CD70DF /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5EC409AC182B254D00CD70DF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5EC409AD182B254D00CD70DF /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		5EC409C1182B254D00CD70DF /* InfoPlist.strings */ = {
@@ -375,9 +556,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WifiFtpServer/WifiFtpServer-Prefix.pch";
 				INFOPLIST_FILE = "WifiFtpServer/WifiFtpServer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -388,9 +572,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WifiFtpServer/WifiFtpServer-Prefix.pch";
 				INFOPLIST_FILE = "WifiFtpServer/WifiFtpServer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
